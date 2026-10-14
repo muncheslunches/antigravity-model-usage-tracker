@@ -1,0 +1,17 @@
+{
+  "command": "node",
+  "args": ["server.mjs"],
+  "restart_policy": "always",
+  "display_name": "Model Quota Panel",
+  "has_web_ui": true,
+  "ui_config": {
+    "display_name": "Model Quota",
+    "views": [
+      {
+        "path": "/",
+        "entrypoint": "SIDECAR_UI_ENTRYPOINT_AUX_PANE",
+        "title": "Model Quota Tracker"
+      }
+    ]
+  }
+}

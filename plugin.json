@@ -1,0 +1,5 @@
+{
+  "name": "model-quota-tracker",
+  "displayName": "Model Quota Tracker",
+  "description": "Real-time usage and quota tracking dashboard for Antigravity models including Claude Opus 5.5, Sonnet 5.5, and Gemini 3.8 Flash."
+}
